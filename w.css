@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+      /* margin-left: -12px; */
+     
+}
+
+.top{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+
+}
+.top-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* width: 100%; */
+    /* padding: 10px; */
+    /* margin-left: -20px; */
+
+    /* padding: 20px 0px; */
+  
+
+}
+.top-right {
+    padding-top: 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* width: 100%; */
+    padding: 10px;
+    margin-left: -20px;
+}
+
+.small-heading {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+a{
+    /* text-decoration: none; */
+}
+a:hover{
+
+font-size: 20px;
+text-decoration: dashed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 576px; /* Adjusted to full viewport height */
+    width: 80%;
+    margin: auto;
+    margin-top: -75px;
+}
+
+#branding {
+  
+    text-align: center;
+    margin-bottom: -39px;
+  margin-top: -95px;
+
+}
+
+ h1 {
+    color: #333;
+    font-size: 60px;
+    /* font-size: 30px; */
+    letter-spacing: -0.129em;
+  font-size: 103px;
+
+}
+
+.search {
+    text-align: center;
+    /* padding: 20px; */
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 308px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(38, 38, 129);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* padding-top: 0px; */
+}
+
+.dots{
+    padding-right: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #333;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.highlight {
+    color: #4CAF50;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #45a049;
+}
+
+
+
+.s1{
+    color: blue;
+}
+.s2{
+    color: red;
+}
+.s3{
+    color: yellow;
+}
+.s4{
+    color: blue;
+}
+.s5{
+    color: #45a049;
+}
+.s6{
+    color: red;
+}
